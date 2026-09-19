@@ -48,12 +48,17 @@ print("hello my name is khushboo\tand my age is 21")
 #backspace with \b
 print("hello my name is khushboo\b and my age is 21")
 
+#raw string and \nwill not work now
+print(r"hello my name is khushboo\nand my age is 21")
+
 
 a = 0
 b = ""
 print(bool(a))
 print(bool(b))
 
-a = 23
-a = str(a)
+a = "23"
+a = int(a)
 print(type(a))
+
+age = int(input("tell your age: "))
